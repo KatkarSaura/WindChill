@@ -8,6 +8,7 @@ public class WindChill {
 		
 		double windChillTemp = 35.7 + 0.621 * a + (0.42 * a - 35.75) * Math.pow(a,0.16);
 		
+		System.out.println("Uc1");
 		System.out.println(windChillTemp);
 
 	}
